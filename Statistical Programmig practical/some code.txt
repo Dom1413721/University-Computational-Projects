@@ -1,0 +1,30 @@
+ First, let $c$ be such that $p(r|k) = c \cdot (1-e^{-r^2/2})^6e^{-2r^2} \cdot re^{-r}$. Then:
+
+\begin{align}
+\int_0^\infty p(r|6) dr &= c \cdot \int_0^\infty  (1-e^{-r^2/2})^6 e^{-2r^2} \cdot re^{-r} dr\\
+1 &= c \cdot \int_0^\infty  (1-e^{-r^2/2})^6e^{-2r^2} \cdot re^{-r} dr\\
+(\int_0^\infty  (1-e^{-r^2/2})^6e^{-2r^2} \cdot re^{-r} dr)^{-1} &= c
+\end{align}
+
+So:
+
+\begin{align}
+\text{Var}(r_i) &= E(r_i^2) - E(r_i)^2\\
+&\leq E(r_i^2)\\
+&= \int_0^\infty r^2 \cdot c \cdot (1-e^{-r^2/2})^6e^{-2r^2} \cdot re^{-r} dr\\
+&= c \cdot \int_0^\infty r^3 \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr\\
+&= \frac{\int_0^\infty r^3 \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}{\int_0^\infty r \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}\\
+&= \frac{\int_0^1 r^3 \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}{\int_0^1 r \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}+\frac{\int_1^\infty r^3 \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}{\int_1^\infty r \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}\\
+&\leq \frac{\int_0^1 r \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}{\int_0^1 r \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}+\frac{\int_1^\infty r^3 \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}{\int_1^\infty r \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}\\
+&= 1+ \frac{\int_1^\infty r^3 \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}{\int_1^\infty r \cdot (1-e^{-r^2/2})^6e^{-2r^2-r} dr}\\
+\end{align}
+
+Where line (10) comes from the fact that on $[0,1], r^2 \leq 1$
+
+Where line (7) comes from the fact that $r^3e^-{2r^2} \leq 0.15$. Indeed, $\frac{d}{dr}(r^3e^-{2r^2}) = r^2e^{-2r^2}(3-4r^2)$ so the turning points are at $0, \pm \frac{\sqrt{3}}{2}$. Now by looking at 2nd derivatives (or a sketch of the function) we see the only possible maximums are at $r= \frac{\sqrt{3}}{2}$ and $r=0$, but $0^3e^{-2(0^2)}=0$ and $ (\frac{\sqrt{3}}{2})^3e^{-2 (\frac{\sqrt{3}}{2})^2} \approx 0.1449 \leq 0.15$.\\
+
+So mse($\hat{\theta}) \leq \frac{0.15}{N}$. If we want to guarantee that, say, mse($\hat{\theta}) \leq 0.0001$, we should take $N$ s.t. $\frac{0.15}{N} \leq 0.0001$ i.e. $N \geq 1500.$\\
+
+Using $N=1500$, we get a Monte Carlo estimate of $E(R|K=6) \approx 1.379618$. Also, this program took around 10 seconds to run so the value of $N$ isn't too large. The time was kept down by not having to store all sample values of $r_i$, we merely added them to the current sum. To increase accuracy
+by 1 more significant figure we would need to decrease the mse by a factor of $10^2$ so would need to take $N=250000$, which would definitely take too long to run.
+\\

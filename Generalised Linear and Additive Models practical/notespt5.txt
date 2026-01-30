@@ -1,0 +1,76 @@
+Q_OCV
+GCV (numeically moe stable) since ambigious what OCV means when there are repeated values..
+
+________________________________________________
+data=data = read.csv("C:\\Users\\xboxl\\OneDrive\\GLAM practical\\enginewear.csv")
+m1 = lm(wear ~ size, data=data)
+plot(data$size,data$wear)
+lines(data$size, predict(m1))
+
+install.packages('prclust')
+library('prclust')
+
+get.coef = function(x, y, lambda){
+    n = length(x)
+    absdiff3 = function(x,y){abs(x-y)^3}
+    K = outer(x, x, absdiff3) + lambda * diag(n)
+    L = cbind(rep(1, n), x)
+    M = rbind(cbind(K, L), cbind(t(L),matrix(0, nrow=2, ncol=2)))
+    
+    coef = solve(M) %*% c(y, 0, 0)
+    return(coef)
+}
+
+## Function to evaluate natural cubic spline at location x given
+## coefficients and knots.
+nat.cubic.spline = function(x, coef, knots){
+    a0 = coef[length(coef)-1]
+    a1 = coef[length(coef)]
+    b = coef[1:(length(coef)-2)]
+    return(a0 + a1*x + sum(b * abs(x - knots)^3))
+}
+
+OCV = function(y,x, lambda){
+	n=length(x)
+	s=()
+	for(i in 1:n)
+	s(i) = 
+	ans = (1/n)*(sum((y-fitted(model))/(1-s
+
+
+
+plot(x=data$size, y=data$wear, xlab = "size", ylab = "wear")
+f.coef0001 =  get.coef(x=data$size, y=data$wear, lambda=0.001)
+f.coef001 =  get.coef(x=data$size, y=data$wear, lambda=0.01)
+f.coef01 =  get.coef(x=data$size, y=data$wear, lambda=0.1)
+f.coef1 =  get.coef(x=data$size, y=data$wear, lambda=1)
+x = seq(1.15, 3, length=101)
+y0001 = y001= y01 = y1 = numeric(length(x))
+
+
+for(i in 1:101){
+    y1[i] = nat.cubic.spline(x[i], f.coef1, data$size)
+    y01[i] = nat.cubic.spline(x[i], f.coef01, data$size)
+    y001[i] = nat.cubic.spline(x[i], f.coef001, data$size)
+    y0001[i] = nat.cubic.spline(x[i], f.coef0001, data$size)
+}
+
+lines(y0001~data$size, col="blue", lwd=2)
+lines(y001~data$size, col="red", lwd=2)
+lines(y01~data$size, col="black", lwd=2)
+lines(y1~data$size, col="green", lwd=2)
+
+model3 = smooth.spline(data$size, data$wear, all.knots = TRUE, lambda=0.000001)
+
+lambda = 10^(-rev(seq(from = -10, to = 10, by = 0.1)))
+for(i in 1:101)
+model=smooth.spline(data$size, data$wear, all.knots = TRUE, lambda=lambda[i])
+gcv[i] = model$cv.crit
+
+plot(lambda,gcv)
+
+
+lambda = 10^(-rev(seq(from = 0.1, to = 10, by = 0.1)))
+for(i in 1:101)
+model=smooth.spline(data$size, data$wear, all.knots = TRUE, lambda=lambda[i],cv='TRUE')
+ocv[i] = model$cv.crit

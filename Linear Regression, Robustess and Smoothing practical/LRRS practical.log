@@ -1,0 +1,670 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  18 DEC 2022 23:33
+entering extended mode
+**"./LRRS practical.tex"
+("LRRS practical.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count178
+)) (C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.st
+y
+Package: placeins 2005/04/18  v 2.2
+) (C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count179
+\lst@gtempboxa=\box45
+\lst@token=\toks17
+\lst@length=\count180
+\lst@currlwidth=\dimen143
+\lst@column=\count181
+\lst@pos=\count182
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
+\lst@newlines=\count183
+\lst@lineno=\count184
+\lst@maxwidth=\dimen146
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count185
+\lst@skipnumbers=\count186
+\lst@framebox=\box46
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen147
+))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks19
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks20
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks28
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple.sty
+Package: csvsimple 2019/04/09 version 1.21 LaTeX CSV file processing
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box49
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks32
+)))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\csv@file=\read2
+\c@csvinputline=\count199
+\c@csvrow=\count266
+\c@csvcol=\count267
+\csv@out=\write3
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count268
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box50
+)
+\tc@llx=\dimen160
+\tc@lly=\dimen161
+\tc@urx=\dimen162
+\tc@ury=\dimen163
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen164
+\adjbox@Height=\dimen165
+\adjbox@Depth=\dimen166
+\adjbox@Totalheight=\dimen167
+\adjbox@pwidth=\dimen168
+\adjbox@pheight=\dimen169
+\adjbox@pdepth=\dimen170
+\adjbox@ptotalheight=\dimen171
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count269
+) (C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box51
+\sift@deathcycles=\count270
+\@vwid@loff=\dimen172
+\@vwid@roff=\dimen173
+))
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen174
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen175
+\subfiglabelskip=\skip58
+\c@subfigure=\count271
+\c@lofdepth=\count272
+\c@subtable=\count273
+\c@lotdepth=\count274
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg
+)
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count275
+\FV@InFile=\read3
+\FV@TabBox=\box52
+\c@FancyVerbLine=\count276
+\FV@StepNumber=\count277
+\FV@OutFile=\write4
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks35
+\SOUL@lasttoken=\toks36
+\SOUL@cmds=\toks37
+\SOUL@buffer=\toks38
+\SOUL@token=\toks39
+\SOUL@spaceskip=\skip61
+\SOUL@ttwidth=\dimen176
+\SOUL@uldp=\dimen177
+\SOUL@ulht=\dimen178
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+mode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count278
+\l__pdf_internal_box=\box53
+) ("LRRS practical.aux")
+\openout1 = `"LRRS practical.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=542.02501pt
+* \textheight=722.7pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count279
+ABD: EveryShipout initializing macros
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen179
+\scratchbox=\box54
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen180
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks41
+)
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+
+
+(C:\Users\xboxl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: No \author given.
+
+<LE vs GPC.png, id=1, 1284.8pt x 596.2275pt>
+File: LE vs GPC.png Graphic file (type png)
+<use LE vs GPC.png>
+Package pdftex.def Info: LE vs GPC.png  used on input line 54.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs logGPC.png, id=2, 1284.8pt x 596.2275pt>
+File: LE vs logGPC.png Graphic file (type png)
+<use LE vs logGPC.png>
+Package pdftex.def Info: LE vs logGPC.png  used on input line 59.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sqrtLE vs logGPC.png, id=3, 1284.8pt x 596.2275pt>
+File: sqrtLE vs logGPC.png Graphic file (type png)
+<use sqrtLE vs logGPC.png>
+Package pdftex.def Info: sqrtLE vs logGPC.png  used on input line 64.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<logLE vs logGPC.png, id=4, 1284.8pt x 596.2275pt>
+File: logLE vs logGPC.png Graphic file (type png)
+<use logLE vs logGPC.png>
+Package pdftex.def Info: logLE vs logGPC.png  used on input line 69.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<residuals LE vs logGPC.png, id=5, 1284.8pt x 596.2275pt>
+File: residuals LE vs logGPC.png Graphic file (type png)
+<use residuals LE vs logGPC.png>
+Package pdftex.def Info: residuals LE vs logGPC.png  used on input line 74.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<residuals sqrtLE vs logGPC.png, id=6, 1284.8pt x 596.2275pt>
+File: residuals sqrtLE vs logGPC.png Graphic file (type png)
+<use residuals sqrtLE vs logGPC.png>
+Package pdftex.def Info: residuals sqrtLE vs logGPC.png  used on input line 79.
+
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<residuals logLE vs logGPC.png, id=7, 1284.8pt x 596.2275pt>
+File: residuals logLE vs logGPC.png Graphic file (type png)
+<use residuals logLE vs logGPC.png>
+Package pdftex.def Info: residuals logLE vs logGPC.png  used on input line 84.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+{C:/Users/xboxl/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./LE vs GPC
+.png> <./LE vs logGPC.png>] [3 <./sqrtLE vs logGPC.png> <./logLE vs logGPC.png>
+] [4 <./residuals LE vs logGPC.png> <./residuals sqrtLE vs logGPC.png>]
+[5 <./residuals logLE vs logGPC.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--101
+
+ []
+
+[6
+
+]
+<LE vs HS.png, id=43, 1284.8pt x 596.2275pt>
+File: LE vs HS.png Graphic file (type png)
+<use LE vs HS.png>
+Package pdftex.def Info: LE vs HS.png  used on input line 124.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+<LE vs logHS.png, id=44, 1284.8pt x 596.2275pt>
+File: LE vs logHS.png Graphic file (type png)
+<use LE vs logHS.png>
+Package pdftex.def Info: LE vs logHS.png  used on input line 129.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<residuals LE vs logHS.png, id=45, 1284.8pt x 596.2275pt>
+File: residuals LE vs logHS.png Graphic file (type png)
+<use residuals LE vs logHS.png>
+Package pdftex.def Info: residuals LE vs logHS.png  used on input line 134.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs HIV.png, id=46, 1284.8pt x 596.2275pt>
+File: LE vs HIV.png Graphic file (type png)
+<use LE vs HIV.png>
+Package pdftex.def Info: LE vs HIV.png  used on input line 139.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs logHIV.png, id=47, 1284.8pt x 596.2275pt>
+File: LE vs logHIV.png Graphic file (type png)
+<use LE vs logHIV.png>
+Package pdftex.def Info: LE vs logHIV.png  used on input line 144.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<residuals LE vs logHIV.png, id=48, 1284.8pt x 596.2275pt>
+File: residuals LE vs logHIV.png Graphic file (type png)
+<use residuals LE vs logHIV.png>
+Package pdftex.def Info: residuals LE vs logHIV.png  used on input line 149.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs alcohol.png, id=49, 1284.8pt x 596.2275pt>
+File: LE vs alcohol.png Graphic file (type png)
+<use LE vs alcohol.png>
+Package pdftex.def Info: LE vs alcohol.png  used on input line 154.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs tobacco.png, id=50, 1284.8pt x 596.2275pt>
+File: LE vs tobacco.png Graphic file (type png)
+<use LE vs tobacco.png>
+Package pdftex.def Info: LE vs tobacco.png  used on input line 159.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs PS.png, id=51, 1284.8pt x 596.2275pt>
+File: LE vs PS.png Graphic file (type png)
+<use LE vs PS.png>
+Package pdftex.def Info: LE vs PS.png  used on input line 164.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs logPS.png, id=52, 1284.8pt x 596.2275pt>
+File: LE vs logPS.png Graphic file (type png)
+<use LE vs logPS.png>
+Package pdftex.def Info: LE vs logPS.png  used on input line 169.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs PD.png, id=53, 1284.8pt x 596.2275pt>
+File: LE vs PD.png Graphic file (type png)
+<use LE vs PD.png>
+Package pdftex.def Info: LE vs PD.png  used on input line 174.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LE vs logPD.png, id=54, 1284.8pt x 596.2275pt>
+File: LE vs logPD.png Graphic file (type png)
+<use LE vs logPD.png>
+Package pdftex.def Info: LE vs logPD.png  used on input line 179.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./LE vs HS.png>] [8 <./LE vs logHS.png> <./residuals LE vs logHS.png>]
+[9 <./LE vs HIV.png> <./LE vs logHIV.png>] [10 <./residuals LE vs logHIV.png> <
+./LE vs alcohol.png>] [11 <./LE vs tobacco.png> <./LE vs PS.png>] [12 <./LE vs 
+logPS.png> <./LE vs PD.png>] [13 <./LE vs logPD.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
+
+ []
+
+[14
+
+]
+<pairs.png, id=94, 1284.8pt x 596.2275pt>
+File: pairs.png Graphic file (type png)
+<use pairs.png>
+Package pdftex.def Info: pairs.png  used on input line 238.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+<new pairs.png, id=95, 1284.8pt x 596.2275pt>
+File: new pairs.png Graphic file (type png)
+<use new pairs.png>
+Package pdftex.def Info: new pairs.png  used on input line 245.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./pairs.png>]
+<residuals in new model.png, id=100, 1284.8pt x 596.2275pt>
+File: residuals in new model.png Graphic file (type png)
+<use residuals in new model.png>
+Package pdftex.def Info: residuals in new model.png  used on input line 257.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<QQnorm new.png, id=101, 1284.8pt x 596.2275pt>
+File: QQnorm new.png Graphic file (type png)
+<use QQnorm new.png>
+Package pdftex.def Info: QQnorm new.png  used on input line 263.
+(pdftex.def)             Requested size: 542.02501pt x 251.54195pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <./new pairs.png>] [17 <./residuals in new model.png> <./QQnorm new.png>]
+[18
+
+] [19] ("LRRS practical.aux") ) 
+Here is how much of TeX's memory you used:
+ 8049 strings out of 480790
+ 130708 string characters out of 2897301
+ 379768 words of memory out of 3000000
+ 23892 multiletter control sequences out of 15000+200000
+ 540682 words of font info for 57 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,9n,48p,1145b,260s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/xboxl/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/xboxl/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/xboxl/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/xboxl/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/xb
+oxl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Users/xboxl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Users/xboxl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr17.pfb><C:/Users/xboxl/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Users/xboxl/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Users/xboxl/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/xboxl/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "LRRS practical.pdf" (19 pages, 415822 bytes).
+PDF statistics:
+ 154 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+

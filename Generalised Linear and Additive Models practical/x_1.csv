@@ -1,0 +1,5 @@
+CHOL,BP normal,BP elevated,BP stage I,BP stage II
+Normal,2,2,3,4
+Medium risk,2,2,3,4
+High risk,3,3,4,5
+Dangerous,4,4,5,6

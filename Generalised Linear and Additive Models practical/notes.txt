@@ -1,0 +1,52 @@
+models:
+
+Y_i ~ B(M_i,p_i) 16 times.
+combine factors?
+
+
+_______________________________________________________________
+data = read.csv("C:\\Users\\xboxl\\OneDrive\\GLAM practical\\chd.csv")
+library(forcats)
+data$chol = as.factor(data$chol)
+data$bp = as.factor(data$bp)
+data[, 5] = data[, 2] - data[, 1]
+names(data)[5] = "m-y"
+model1 = glm(cbind(y,m-y) ~ bp + chol, data = data, family = binomial)
+data[, 6] = data[, 1] / data[, 2]
+names(data)[6] = "fraction"
+plot(x, data$fraction, col = "blue", ylab = "fraction of men with CHD", xlab = "cell")
+points(x, fitted.values(model), col = "red")
+pchisq(2.8017,df=9)
+data$bp = fct_collapse(data$bp, "1"= c(1,2), "2" = c(3), "3" = c(4))
+data$chol = fct_collapse(data$chol, "1"= c(1,2), "2" = c(3), "3" = c(4))
+model2 = glm(cbind(y,m-y) ~ bp + chol, data = data, family = binomial)
+summary(model2)
+data$bp = as.numeric(data$bp)
+model3 = glm(cbind(y,m-y) ~ bp + chol, data = data, family = binomial)
+summary(model3)
+data$chol = as.numeric(data$chol)
+model4 = glm(cbind(y,m-y) ~ bp + chol, data = data, family = binomial)
+summary(model4)
+plot(residuals(model4))
+model5 = glm(cbind(y,m-y) ~ bp + chol, data = data, family = binomial(probit))
+model5
+model6 = glm(cbind(y,m-y) ~ bp + chol, data = data, family = binomial(cloglog))
+model6
+model7 = glm(cbind(y,m-y) ~ bp + chol, data = data, family = binomial(cauchit))
+model7
+data$bpchol = data$bp+data$chol
+model8 = glm(cbind(y,m-y) ~ bpchol, data = data, family = binomial)
+
+
+
+
+
+
+
+plot(x, newdata$fraction, col = "blue", ylab = "fraction of men with CHD", xlab = "cell")
+points(x, fitted.values(newmodel3), col = "red")
+
+	
+
+
+

@@ -1,0 +1,132 @@
+CODE
+----
+e <- read.csv("https://www1.maths.leeds.ac.uk/~voss/2022/MATH3714/practical.csv",
+              stringsAsFactors = TRUE)
+
+names(d)[5]="GPC"
+names(d)[12]="LE"
+names(d)[6]="HS"
+names(d)[10]="PS"
+names(d)[11]="PD"
+
+
+d[13]=log(d[5])
+names(d)[13]="logGPC"
+
+d[14]=log(d[12])
+names(d)[14]="logLE"
+
+d[15]=sqrt(d[12])
+names(d)[15]="sqrtLE"
+
+d[16]=log(d[6])
+names(d)[16]="logHS"
+
+d[17]=log(d[7])
+names(d)[17]="logHIV"
+
+d[18]=log(d[10])
+names(d)[18]="logPS"
+
+d[19]=log(d[11])
+names(d)[19]="logPD"
+
+d[20]=log(d[4])
+names(d)[20]="logyear"
+d$year <- factor(d$year, levels = c(2000, 2010, 2015, 2019))
+
+
+m=lm(LE ~ logGPC, data=d)
+n=lm(logLE ~ logGPC, data=d) 
+o=lm(sqrtLE ~ logGPC, data=d)
+
+
+ggplot(d, aes(x=logGPC,y=LE))+geom_point()+stat_smooth()
+
+
+dyear=d[12]
+dyear$year=d[4]
+
+f=d[12
+f[2]=d[13]
+f[3]=d[16]
+f[4]=d[17]
+f[5]=d[4]
+names(f)[2]="logGPC"
+names(f)[3]="logHS"
+names(f)[4]="logHIV"
+names(f)[5]="year"
+
+f$year <- factor(e$year, levels = c(2000, 2010, 2015, 2019))
+
+
+
+f=f %>% filter(!is.na(logHIV))
+f=f %>% filter(!is.na(logHS)|year==2015|year==2019)
+f[is.na(f)] = 0
+
+
+pairs(f[,-1])
+__________________________________________________________________________________________________________________
+IDEAS
+-----
+variance proportional to y?
+TRANSFORM IT BACK FIRST IDIOT BOY
+
+___________________________________________________________________________________________________________________
+WAYS TO ASSESS MODEL
+--------------------
+Akaike’s Information Criterion (AIC)
+Prediction Error Sum of Squares (PRESS)
+R^2
+eye test
+Does it give good predicitons?
+Is it easy to interpret?
+the assumptions are satisfied
+___________________________________________________________________________________________________________________
+WAYS TO CHECK FOR WAYS TO IMPROVE MODEL/WAYS TO IMPROVE IT
+----------------------------------------------------------
+scatter plot (eye check)
+plot of residuals vs explanatory variables (are any super weird? then that coeff might be wrong)
+plot of residuals vs response variables (ditto)
+Q-Q plots (is there one that fits super well?)
+check vs time if possible
+plot explanatory variables against each other (are they colinear?)
+R^2 value (also called coefficient of multiple determination)
+adjusted R^2 value (helps compensate for lots of explanatory variables
+Check if any variables aren't useful
+Check if there are any outliers (Cook's distance)
+Check independence of errors
+Are errors are normally distributed?
+Are the errors identically distributed?
+Power transform???
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
